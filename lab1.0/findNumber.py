@@ -1,4 +1,4 @@
-#! /usr/env/bin python
+#! /usr/bin/env python
 
 """
 This program generates random numbers [1,30] and
