@@ -42,7 +42,7 @@ class PhoneBook():
         if not test:
             for i in range(4):
                 print(self.format_data[i], self.phone_book[email][i])
-                return
+                return None
         return self.phone_book[email]
 
     def show_all(self):
