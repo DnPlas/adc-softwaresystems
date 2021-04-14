@@ -1,0 +1,48 @@
+lab1.0\convert2X.py
+    F 15:0 get_input - A
+    F 23:0 dec_bin - A
+    F 32:0 dec_hex - A
+lab1.0\findNumber.py
+    F 28:0 check_in - A
+    F 22:0 get_input - A
+lab1.0\findWords.py
+    F 28:0 get_input - A
+    F 46:0 count_words - A
+    F 38:0 parse_file - A
+    F 54:0 open_file - A
+lab2.1\profit.py
+    F 11:0 get_inventory - A
+    F 19:0 get_prices - A
+    F 28:0 calc_profit - A
+lab2.1\python_failing.py
+    F 16:0 check_inputs - B
+    F 26:0 int_to_str - A
+    F 40:0 str_to_int - A
+lab3.2\file-cpm_test.py
+    C 14:0 TestFilecmpCMP - A
+    M 17:4 TestFilecmpCMP.test_comparison - A
+    M 20:4 TestFilecmpCMP.test_comparison_false - A
+    M 23:4 TestFilecmpCMP.test_contents_eq - A
+    M 26:4 TestFilecmpCMP.test_contents_diff - A
+    M 29:4 TestFilecmpCMP.test_cache - A
+lab3.2\math-ceil_test.py
+    C 10:0 TestMathCeil - A
+    M 13:4 TestMathCeil.test_one_dec - A
+    M 18:4 TestMathCeil.test_five_dec - A
+    M 22:4 TestMathCeil.test_zero_dec - A
+    M 26:4 TestMathCeil.test_integers - A
+    M 29:4 TestMathCeil.test_large_integers - A
+    M 33:4 TestMathCeil.test_negatives - A
+    M 37:4 TestMathCeil.test_cross_check - A
+    M 41:4 TestMathCeil.test_errors - A
+lab3.2\phonebook.py
+    M 37:4 PhoneBook.show_one - A
+    C 21:0 PhoneBook - A
+    M 27:4 PhoneBook.add_new - A
+    M 48:4 PhoneBook.show_all - A
+    C 59:0 TestPhoneBook - A
+    M 24:4 PhoneBook.__init__ - A
+    M 34:4 PhoneBook.delete - A
+    M 63:4 TestPhoneBook.test_add_new - A
+    M 69:4 TestPhoneBook.test_delete - A
+    M 72:4 TestPhoneBook.test_show_one - A
