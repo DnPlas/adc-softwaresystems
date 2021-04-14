@@ -1,0 +1,96 @@
+lab1.0\convert2X.py
+    LOC: 49
+    LLOC: 39
+    SLOC: 36
+    Comments: 1
+    Single comments: 1
+    Multi: 5
+    Blank: 7
+    - Comment Stats
+        (C % L): 2%
+        (C % S): 3%
+        (C + M % L): 12%
+lab1.0\findNumber.py
+    LOC: 49
+    LLOC: 33
+    SLOC: 32
+    Comments: 1
+    Single comments: 1
+    Multi: 9
+    Blank: 7
+    - Comment Stats
+        (C % L): 2%
+        (C % S): 3%
+        (C + M % L): 20%
+lab1.0\findWords.py
+    LOC: 73
+    LLOC: 51
+    SLOC: 48
+    Comments: 2
+    Single comments: 2
+    Multi: 15
+    Blank: 8
+    - Comment Stats
+        (C % L): 3%
+        (C % S): 4%
+        (C + M % L): 23%
+lab2.1\profit.py
+    LOC: 37
+    LLOC: 26
+    SLOC: 24
+    Comments: 1
+    Single comments: 1
+    Multi: 7
+    Blank: 5
+    - Comment Stats
+        (C % L): 3%
+        (C % S): 4%
+        (C + M % L): 22%
+lab2.1\python_failing.py
+    LOC: 66
+    LLOC: 50
+    SLOC: 46
+    Comments: 1
+    Single comments: 1
+    Multi: 11
+    Blank: 8
+    - Comment Stats
+        (C % L): 2%
+        (C % S): 2%
+        (C + M % L): 18%
+lab3.2\file-cpm_test.py
+    LOC: 34
+    LLOC: 20
+    SLOC: 19
+    Comments: 2
+    Single comments: 2
+    Multi: 3
+    Blank: 10
+    - Comment Stats
+        (C % L): 6%
+        (C % S): 11%
+        (C + M % L): 15%
+lab3.2\math-ceil_test.py
+    LOC: 46
+    LLOC: 28
+    SLOC: 27
+    Comments: 4
+    Single comments: 4
+    Multi: 3
+    Blank: 12
+    - Comment Stats
+        (C % L): 9%
+        (C % S): 15%
+        (C + M % L): 15%
+lab3.2\phonebook.py
+    LOC: 77
+    LLOC: 51
+    SLOC: 50
+    Comments: 2
+    Single comments: 2
+    Multi: 12
+    Blank: 13
+    - Comment Stats
+        (C % L): 3%
+        (C % S): 4%
+        (C + M % L): 18%
