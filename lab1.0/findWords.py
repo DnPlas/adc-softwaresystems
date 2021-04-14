@@ -32,7 +32,7 @@ def get_input():
         if file_name and word_list:
             return file_name, word_list
         sys.exit(0)
-    except:
+    except RuntimeError:
         sys.exit('Both a file name and a word(s) are required\nExiting')
 
 def parse_file(file_name):
@@ -68,6 +68,6 @@ if __name__ == '__main__':
     for word in word_list:
         try:
             print(word, ':', count_dict[word])
-        except:
+        except RuntimeError:
             print(word, ':', 0)
     sys.exit(0)

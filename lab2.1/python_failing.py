@@ -15,12 +15,12 @@ import sys
 
 def check_inputs(input_str=False, input_int=False):
     if input_str:
-        if type(input_str) != type(''):
+        if not isinstance(input_str,str):
             raise AssertionError('Only strings can be converted to integers')
         if '.' in input_str:
             sys.exit('This program cannot convert strings to float type')
     if input_int:
-        if type(input_int) != type(0):
+        if not isinstance(input_int,int):
             raise AssertionError('Only integers can be converted to strings')
 
 def int_to_str(input_int):
