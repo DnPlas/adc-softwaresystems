@@ -1,0 +1,86 @@
+Messages
+========
+
+lab1.0\convert2X.py
+  Line: 38
+    pylint: bad-indentation / Bad indentation. Found 7 spaces, expected 8
+  Line: 41
+    pep8: E305 / expected 2 blank lines after class or function definition, found 1 (col 1)
+  Line: 42
+    pylint: bad-indentation / Bad indentation. Found 3 spaces, expected 4
+  Line: 43
+    pylint: bad-indentation / Bad indentation. Found 3 spaces, expected 4
+  Line: 44
+    pylint: bad-indentation / Bad indentation. Found 3 spaces, expected 4
+  Line: 45
+    pylint: bad-indentation / Bad indentation. Found 3 spaces, expected 4
+  Line: 46
+    pylint: bad-indentation / Bad indentation. Found 3 spaces, expected 4
+  Line: 47
+    pylint: bad-indentation / Bad indentation. Found 3 spaces, expected 4
+  Line: 48
+    pylint: bad-indentation / Bad indentation. Found 3 spaces, expected 4
+  Line: 49
+    pylint: bad-indentation / Bad indentation. Found 3 spaces, expected 4
+
+lab1.0\findNumber.py
+  Line: 41
+    pep8: E305 / expected 2 blank lines after class or function definition, found 1 (col 1)
+  Line: 49
+    pylint: trailing-newlines / Trailing newlines
+
+lab1.0\findWords.py
+  Line: 41
+    pep8: W605 / invalid escape sequence '\W' (col 30)
+  Line: 64
+    pep8: E305 / expected 2 blank lines after class or function definition, found 1 (col 1)
+
+lab2.1\profit.py
+  Line: 33
+    pep8: E305 / expected 2 blank lines after class or function definition, found 1 (col 1)
+
+lab3.2\file-cpm_test.py
+  Line: 33
+    pep8: E305 / expected 2 blank lines after class or function definition, found 1 (col 1)
+
+lab3.2\math-ceil_test.py
+  Line: 45
+    pep8: E305 / expected 2 blank lines after class or function definition, found 1 (col 1)
+
+lab3.2\phonebook.py
+  Line: 40
+    pylint: bare-except / No exception type(s) specified (col 8)
+  Line: 49
+    pylint: bad-indentation / Bad indentation. Found 7 spaces, expected 8
+  Line: 50
+    pylint: bad-indentation / Bad indentation. Found 10 spaces, expected 12
+  Line: 51
+    pylint: bad-indentation / Bad indentation. Found 10 spaces, expected 12
+  Line: 52
+    pylint: bad-indentation / Bad indentation. Found 10 spaces, expected 12
+  Line: 53
+    pylint: bad-indentation / Bad indentation. Found 10 spaces, expected 12
+  Line: 54
+    pylint: bad-indentation / Bad indentation. Found 7 spaces, expected 8
+    pylint: bare-except / No exception type(s) specified (col 7)
+  Line: 55
+    pylint: bad-indentation / Bad indentation. Found 11 spaces, expected 12
+  Line: 56
+    pylint: bad-indentation / Bad indentation. Found 11 spaces, expected 12
+  Line: 76
+    pep8: E305 / expected 2 blank lines after class or function definition, found 1 (col 1)
+
+
+
+Check Information
+=================
+         Started: 2021-04-14 17:50:54.498340
+        Finished: 2021-04-14 17:50:56.409229
+      Time Taken: 1.91 seconds
+       Formatter: grouped
+        Profiles: default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings
+      Strictness: None
+  Libraries Used: 
+       Tools Run: dodgy, mccabe, pep8, profile-validator, pyflakes, pylint
+  Messages Found: 28
+
