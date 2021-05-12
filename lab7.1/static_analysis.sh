@@ -41,6 +41,7 @@ function main_on_prem(){
 }
 
 function main_jenkins(){
+	check_install
 	mkdir sa_logs && \
 	run_sa
 }
