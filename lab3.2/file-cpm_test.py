@@ -27,7 +27,6 @@ class TestFilecmpCMP(unittest.TestCase):
         self.assertFalse(filecmp.cmp(file_1, file_2, shallow=False))
 
     def test_cache(self):
-        filecmp.clear_cache()
         self.assertTrue(filecmp.cmp(file_1, file_1_clone, shallow=False))
 
 if __name__=='__main__':
