@@ -1,5 +1,7 @@
 #! /usr/bin/env bash
 
+
+export PATH=$PATH:/home/daplascen/.local/bin/
 REPO="https://github.com/DnPlas/adc-softwaresystems.git"
 REPO_SUFFIX="dnplas-adc-softwaresystems"
 CLONE="sa_$REPO_SUFFIX"
