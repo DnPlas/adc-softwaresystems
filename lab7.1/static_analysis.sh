@@ -17,13 +17,6 @@ function check_install(){
 	    echo "radon is not installed, exiting"
 	    exit
     fi
-
-#    if ! command git &> /dev/null;
-#    then
-#	    echo "git is not installed, exiting"
-#	    exit
-#    fi
-#
 }
 
 function clone_repo(){
@@ -41,12 +34,18 @@ function run_sa(){
     radon hal . > sa_logs/hal_radon_$current_time.out
 }
 
-function main(){
+function main_on_prem(){
 	check_install
 	clone_repo
 	run_sa
 }
 
+function main_jenkins(){
+	mkdir sa_logs && \
+	run_sa
+}
+
+
 echo "Running Static Analysis for all .py files in this directory and child directories"
 echo "Reports can be found in sa_logs/"
-main
+main_${1}
